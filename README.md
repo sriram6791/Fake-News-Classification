@@ -72,7 +72,19 @@ This project serves as a practical demonstration of:
 ## **Credits**  
 - **Dataset**: Thanks to [Kaggle](https://www.kaggle.com/datasets/aadyasingh55/fake-news-classification) for providing the dataset.  
 ---  
+## **Hardware Specifications**  
 
+The local GPU training was conducted on the following hardware:  
+
+- **Processor**: Intel Core **i7-13650H**  
+- **GPU**: NVIDIA **RTX 3070 Laptop GPU** (8GB VRAM)  
+- **RAM**: 16GB  
+
+### **Training Time**  
+- **Total Training Time**:
+  - Approximately **5 hours** for 50 epochs (Transformer model) on the local GPU. 🚀
+  - Approximately **40 minutes** for 5 epochs (LSTM model) 
+---
 ## **Conclusion**  
 This project highlights the power of machine learning in tackling fake news detection. Both the **LSTM** and **Transformer** models demonstrated strong performance, with the choice between them depending on task-specific requirements.  
 
